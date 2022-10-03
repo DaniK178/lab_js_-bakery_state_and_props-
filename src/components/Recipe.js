@@ -11,6 +11,7 @@ return (
                 <li>Rating: {rating}</li>
             </ul>
         </main>
+        
     </div>
 
 

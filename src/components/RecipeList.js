@@ -14,6 +14,12 @@ const RecipeList = ({recipes}) => {
 
        }) 
     }
+
+      <section>
+      <h4>Average cake rating: </h4>
+      <p>{(recipes.reduce((total, recipe) => total + recipe.rating, 0) / recipes.length)}</p>
+      </section>
+
        </> 
     )
 }
