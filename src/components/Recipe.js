@@ -1,10 +1,10 @@
 
-const Recipe = ({name, ingredients, rating}) => {
+const Recipe = ({cakeName, ingredients, rating}) => {
 
 return (
     <div
     className="recipe">
-        <header> Recipe {name} </header>
+        <header> Recipe {cakeName} </header>
         <main>
         <>
             <section>
