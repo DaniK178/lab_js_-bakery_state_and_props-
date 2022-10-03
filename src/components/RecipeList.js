@@ -8,13 +8,12 @@ const RecipeList = ({recipes}) => {
     {
        recipes.map((recipe,index) => 
        {
-        return <Recipe key = {index} name={recipe.name} ingredients=
+        return <Recipe key = {index} cakeName={recipe.cakeName} ingredients=
         {recipe.ingredients} rating={recipe.rating} />
 
 
        }) 
     }
-       
        </> 
     )
 }

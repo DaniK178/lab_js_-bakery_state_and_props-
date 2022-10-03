@@ -1,8 +1,8 @@
 import NavBar from "./NavBar";
 import Title from "./Title";
-import RecipeList from "./RecipeList";
+import RecipeContainer from "./containers/RecipeContainer";
 import Search from "./Search";
-import CakeForm from "./CakeForm";
+
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
         <Title />
       </header>
       <main>
-        <RecipeList />
+        <RecipeContainer />
         <Search />
-        <CakeForm />
+        
       </main>
     </>
   );
